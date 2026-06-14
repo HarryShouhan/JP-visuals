@@ -15,31 +15,31 @@ const Page2 = () => {
         
                 <div className="logo-seg h-auto md:h-[7vw] border-t-2 border-b-2 border-[#D5A625] border-dashed w-full flex items-center justify-center m-auto mt-4 md:mt-8 py-4 md:py-0 overflow-x-auto">
         
-                <div className="logo-container flex gap-4 md:gap-10 flex-shrink-0 md:flex-shrink">
-                  <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
+                <div className="logo-container flex gap-4 md:gap-10 shrink-0 md:shrink">
+                  <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
                     <img src="" className='object-cover h-full w-full' alt="" />
                   </div>
 
-                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
+                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
                     <img src="" className='object-cover h-full w-full' alt="" />
                   </div>
 
-                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
+                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
                     <img src="" className='object-cover h-full w-full' alt="" />
                   </div>
 
-                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
+                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
                     <img src="" className='object-cover h-full w-full' alt="" />
                   </div>
-                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
-                    <img src="" className='object-cover h-full w-full' alt="" />
-                  </div>
-
-                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
+                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
                     <img src="" className='object-cover h-full w-full' alt="" />
                   </div>
 
-                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden flex-shrink-0">
+                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
+                    <img src="" className='object-cover h-full w-full' alt="" />
+                  </div>
+
+                    <div className="logo w-12 sm:w-16 md:w-[5vw] border-gray-500 h-12 sm:h-16 md:h-[5vw] rounded-full border-2 border-dotted overflow-hidden shrink-0">
                     <img src="" className='object-cover h-full w-full' alt="" />
                   </div>
                  
