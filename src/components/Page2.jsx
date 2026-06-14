@@ -11,7 +11,7 @@ const Page2 = () => {
                 
               </div>
         
-                <div className="page-2-text font-bold text-2xl md:text-4xl font-[font-3] text-center mt-4 md:mt-8">speclizied in </div>
+                <div className="page-2-text font-bold text-2xl md:text-4xl font-[font-3] text-center mt-4 md:mt-8">specialized in </div>
         
                 <div className="logo-seg h-auto md:h-[7vw] border-t-2 border-b-2 border-[#D5A625] border-dashed w-full flex items-center justify-center m-auto mt-4 md:mt-8 py-4 md:py-0 overflow-x-auto">
         

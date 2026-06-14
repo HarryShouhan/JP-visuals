@@ -35,7 +35,7 @@ const Creations = () => {
             <div className="c-left flex w-full md:w-auto">
             <ul className="text-sm sm:text-lg md:text-[2vw] my-auto flex flex-col gap-3 md:gap-0  w-[20vw]">
                 <li className={`designes hover:text-base sm:hover:text-xl md:hover:text-[3vw] pointer cursor-pointer transition-all ${selected === "designes" ? "text-base sm:text-xl md:text-[3vw]" : ""}`} onClick={selectdesign}>designes</li>
-                <li className={`aiCrestion hover:text-base sm:hover:text-xl md:hover:text-[3vw] pointer cursor-pointer transition-all ${selected === "ai" ? "text-base sm:text-xl md:text-[3vw]" : ""}`} onClick={selectAiCreations}>Ai Creastions</li>
+                <li className={`aiCrestion hover:text-base sm:hover:text-xl md:hover:text-[3vw] pointer cursor-pointer transition-all ${selected === "ai" ? "text-base sm:text-xl md:text-[3vw]" : ""}`} onClick={selectAiCreations}>Ai Creations</li>
                 <li className={`vedios hover:text-base sm:hover:text-xl md:hover:text-[3vw] pointer cursor-pointer transition-all ${selected === "vedios" ? "text-base sm:text-xl md:text-[3vw]" : ""}`} onClick={selectVedios}>Vedios</li>
             </ul>
             </div>
