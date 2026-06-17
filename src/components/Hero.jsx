@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import React , { useRef } from 'react'
 import gsap from 'gsap';
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 function Hero() {
 
@@ -80,9 +81,7 @@ const cursorRef = useRef(null)
       gsap.to(cursorRef.current,{
     
       scale:1.5,
-        onComplete: ()=>{
-          cursorRef.current.innerText ="view"
-        },
+   
         ease:"leniar",
         duration:1
    })
@@ -121,26 +120,30 @@ window.addEventListener("mousemove",cursor)
   return (
     
 
-    <div className="hero h-auto md:h-[38vw] w-auto relative overflow-hidden md:overflow-visible bg-[url(https://res.cloudinary.com/dpmldj9ki/image/upload/v1781335826/images/download_xvbswr.jpg)] bg-cover flex flex-col md:flex-row justify-center items-center md:items-start gap-4 md:gap-0 p-4 md:p-0">
+    <div className="hero h-[65vh]  md:h-[80vh] lg:h-[38vw] w-auto relative overflow-hidden lg:overflow-hidden bg-[url(https://res.cloudinary.com/dpmldj9ki/image/upload/v1781674415/download_10_wbqdwg.jpg)] bg-cover flex flex-col lg:flex-row justify-center items-center lg:items-start lg:gap-4 lg:gap-0 p-4 lg:p-0">
       {/* cursor */}
-      <div ref={cursorRef}  className="cursor shadow-1 pointer-events-none text-amber-50  absolute -left-3 -top-25 rounded-full z-[999] bg-amber-700 text-center align-middle justify-between p-2 text-[0.5vw]"></div>
+      <div ref={cursorRef}  className="cursor shadow-1 pointer-events-none text-amber-50  absolute -left-3 -top-25 rounded-full z-[999] bg-blend-hue text-center align-middle justify-between p-2 text-[0.5vw]"></div>
 
 
-      <div ref={DigitaltxtAnimation} className="hero-1  text-4xl sm:text-5xl md:text-7xl custom-font1  absolute top-4 md:top-2 left-4 md:left-30 ">digital</div>
+      <div ref={DigitaltxtAnimation} className="hero-1  text-6xl sm:text-5xl lg:text-7xl custom-font1  absolute top-[5vw] lg:top-2 left-4 md:text-7xl  lg:left-30 ">digital</div>
 
-      <div ref={vedio} onMouseEnter={mouseIn} onMouseLeave={mouseOut} className="hero2 w-full md:w-auto">
-        <video  src="https://res.cloudinary.com/dpmldj9ki/video/upload/v1781336026/hero_m8hqs0.mp4" autoPlay loop muted className='hero-vedio shadow-1 border-amber-50 border-2 md:border-4 rounded-r-md h-40 sm:h-60 md:h-[25vw] object-cover w-full md:w-auto absolute left-0 md:left-52 top-16 md:top-18'></video>
+   
+
+      <div ref={vedio} onMouseEnter={mouseIn} onMouseLeave={mouseOut} className="hero2 w-full lg:w-auto">
+         
+         
+        <video  src="https://res.cloudinary.com/dpmldj9ki/video/upload/v1781336026/hero_m8hqs0.mp4" autoPlay loop muted className='hero-vedio shadow-1 border-amber-50 border-2 lg:border-4 rounded-r-md w-[85vw] md:h-[35vh] sm:h-60 lg:h-[25vw] object-cover  lg:w-auto absolute left-[10vw] lg:left-52 top-[14vh] lg:top-18'></video>
       </div>
 
-      <div className="hero-3 h-auto md:h-75 w-auto md:w-40 flex relative top-52 md:top-8 left-4 md:left-90 p-3">
+      <div className="hero-3 h-auto lg:h-75 w-auto lg:w-40 flex relative top-[45vw] lg:top-8 md:top-[34vw] left-1 lg:left-90 p-3">
         <div className="hero-3-top ">
-          <button ref={btn} className='btn shadow-1 bg-blue-500 pt-1 pb-1 custom-font1 w-32 md:w-35 text-white text-lg md:text-2xl rounded-full hover:bg-blue-600 hover:scale-95' onClick={openWhatsApp}>Hire Us</button>
-          <p ref={textSm} className='w-full md:w-[17vw] ml-0 md:ml-4 custom-font1 mt-2 text-sm md:text-[1.3vw] '>Passionate about creating modern designs that blend creativity with functionality.
+          <button ref={btn} className='btn shadow-1 bg-blue-500 pt-1 pb-1 relative right-[6vw]  custom-font1 w-[25vw] md:h-[8vw] md:text-2xl lg:w-35 text-white text-lg lg:h-[4vw] lg:text-xl rounded-full hover:bg-blue-600 hover:scale-95 ' onClick={openWhatsApp}>Hire Us</button>
+          <p ref={textSm} className='w-[60vw] lg:w-[17vw] ml-0 lg:ml-4  custom-font1 mt-2 text-sm lg:text-[1.3vw] md:text-xl '>Passionate about creating modern designs that blend creativity with functionality.
           </p>
         </div>
 
       </div>
-      <div ref={designTextAnimation} className="hero-3-bottom  text-3xl sm:text-5xl md:text-[6vw] custom-font1 absolute top-80 md:top-[29vw] left-4 md:left-[61vw] ">designer</div>
+      <div ref={designTextAnimation} className="hero-3-bottom  text-4xl sm:text-5xl lg:text-[6vw] custom-font1 absolute top-[80vw] lg:top-[29vw] left-[60vw] md:top-[50vh]  md:text-7xl lg:left-[63vw] ">designer</div>
     </div>
   );
 }

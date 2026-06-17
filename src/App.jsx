@@ -54,8 +54,7 @@ window.addEventListener("mousemove",cursor)
    
 
    <div>
-     <button ref={backToTopref} className='shadow-1 h-10 w-10 p-1 fixed bottom-7 right-20 rounded-full bg-black text-amber-50'><a href="#hero"><i className="fa-solid fa-arrow-up h-2"></i></a></button>
-     {/* cursor */}
+        {/* cursor */}
       <div ref={cursorRef}  className="cursor w-[3vw] h-[3vw] absolute -left-3 -top-25 rounded-full z-[999] bg-amber-700">
         <img src="https://res.cloudinary.com/dpmldj9ki/image/upload/v1781460072/IMG-20260614-WA0003_ruckeb.jpg" className='h-full w-full rounded-full' alt="" />
       </div> 
@@ -77,6 +76,8 @@ window.addEventListener("mousemove",cursor)
 
     <NavBar/>
     <Hero/>
+      <button ref={backToTopref} className='shadow-1 h-10 w-10 p-1 fixed bottom-[1vh] left-[80vw] z-999 rounded-full bg-black text-amber-50'><a href="#hero"><i className="fa-solid fa-arrow-up h-2"></i></a></button>
+
     <Page2/>
     <Creations  onImageClick={setSelectedImg}/>
     <Credits/>
